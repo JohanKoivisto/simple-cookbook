@@ -1,0 +1,11 @@
+{
+  "name": "simple-cookbook",
+  "version": "1.0.0",
+  "description": "Good recipes I have found",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johan Koivisto",
+  "license": "ISC"
+}
