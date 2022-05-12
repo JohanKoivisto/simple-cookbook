@@ -1,26 +1,30 @@
 [
-    {
-        "id": 0,
-        "recipeName": "Tiramisu",
-        "icon": "🍰",
-        "quantity": 4,
-        "ingredients": [
-            "500ml kuohukermaa",
-            "250g mascarponea",
-            "75ml Marsala-viiniä",
-            "75g hienoa sokeria",
-            "150g savoiardi keksiä",
-            "2 rkl pikakahvia sekoitettuna 250ml kuumaa vettä",
-            "2 rkl kookosjauhetta"
-        ],
-        "instructions": []
-    },
-    {
-        "id": 1,
-        "recipeName": "TexMex Makaroonilaatikko",
-        "icon": "🍝",
-        "quantity": 6,
-        "ingredients": [],
-        "instructions": []
-    }
+  {
+    "id": 0,
+    "recipeName": "Tiramisu",
+    "icon": "🍰",
+    "quantity": "4",
+    "ingredients": [
+      "500ml kuohukermaa",
+      "250g mascarponea",
+      "75ml Marsala-viiniä",
+      "75g hienoa sokeria",
+      "150g savoiardi keksiä",
+      "2 rkl pikakahvia sekoitettuna 250ml kuumaa vettä",
+      "2 rkl kookosjauhetta"
+    ],
+    "instructions": [
+      "Combine the cream, mascarpone, Marsala and sugar in a large mixing bowl and whisk until the mixture has the consistency of thickly whipped cream.",
+      "Pour the made up coffee into a shallow dish. Dip the sponge fingers into the coffee, turning for a few seconds so that they are evenly soaked, then layer into the base of a large glass serving bowl.",
+      "Spread the mascarpone mixture on top of the sponge fingers. Sift the cocoa powder on top in an even layer and serve."
+    ]
+  },
+  {
+    "id": 1,
+    "recipeName": "TexMex Makaroonilaatikko",
+    "icon": "🍝",
+    "quantity": "6",
+    "ingredients": [],
+    "instructions": []
+  }
 ]

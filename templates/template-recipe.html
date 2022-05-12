@@ -13,7 +13,7 @@
       href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"
     />
 
-    <title>{%PRODUCTNAME%} {%IMAGE%} /// NODE FARM</title>
+    <title>{%RECIPENAME%} - Louien keittokirja</title>
 
     <style>
       *,
@@ -67,7 +67,7 @@
         margin: 0 auto;
       }
 
-      .product {
+      .recipe {
         width: 60rem;
         margin: 0 auto;
         margin-top: 9rem;
@@ -76,13 +76,13 @@
         position: relative;
       }
 
-      .product__hero {
+      .recipe__hero {
         position: relative;
         height: 22rem;
         overflow: hidden;
       }
 
-      .product__hero::before {
+      .recipe__hero::before {
         content: "";
         display: block;
         height: 100%;
@@ -95,59 +95,59 @@
         z-index: 100;
       }
 
-      .product__emoji {
+      .recipe__emoji {
         font-size: 15rem;
         position: absolute;
       }
 
-      .product__emoji--1 {
+      .recipe__emoji--1 {
         top: -4rem;
         left: -2rem;
         z-index: 10;
       }
 
-      .product__emoji--2 {
+      .recipe__emoji--2 {
         top: -6rem;
         left: 9rem;
       }
 
-      .product__emoji--3 {
+      .recipe__emoji--3 {
         top: -4rem;
         right: 15rem;
       }
 
-      .product__emoji--4 {
+      .recipe__emoji--4 {
         top: -5rem;
         right: 2rem;
         z-index: 10;
       }
 
-      .product__emoji--5 {
+      .recipe__emoji--5 {
         bottom: -9rem;
         left: 18rem;
       }
 
-      .product__emoji--6 {
+      .recipe__emoji--6 {
         bottom: -8rem;
         left: 5rem;
       }
 
-      .product__emoji--7 {
+      .recipe__emoji--7 {
         bottom: -12rem;
         right: 14rem;
       }
 
-      .product__emoji--8 {
+      .recipe__emoji--8 {
         bottom: -8rem;
         right: -2rem;
       }
 
-      .product__emoji--9 {
+      .recipe__emoji--9 {
         top: -7rem;
         left: 19rem;
       }
 
-      .product__organic {
+      .recipe__organic {
         position: absolute;
         top: -4rem;
         right: -4rem;
@@ -163,15 +163,15 @@
         justify-content: center;
       }
 
-      .product__organic h5 {
+      .recipe__organic h5 {
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.8rem;
         color: white;
       }
 
-      .product__back:link,
-      .product__back:visited {
+      .recipe__back:link,
+      .recipe__back:visited {
         position: absolute;
         top: 2rem;
         left: 2rem;
@@ -190,12 +190,12 @@
         align-items: center;
       }
 
-      .product__back:hover,
-      .product__back:active {
+      .recipe__back:hover,
+      .recipe__back:active {
         background-color: #79e17b;
       }
 
-      .product__name {
+      .recipe__name {
         background: linear-gradient(to bottom, #9be15d, #00e3ae);
         padding: 1rem;
         font-family: "Megrim", sans-serif;
@@ -205,23 +205,26 @@
         word-spacing: 2px;
       }
 
-      .product__details {
+      .recipe__details {
         background-color: #eee;
         padding: 4rem 6rem;
         font-size: 1.9rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1.5rem;
       }
 
-      .product__description {
+      .recipe__instructions {
+        background-color: #fff;
+        padding: 4rem 6rem;
+        font-size: 1.9rem;
+      }
+
+      .recipe__description {
         padding: 5rem 6rem;
         font-size: 1.6rem;
         line-height: 1.8;
       }
 
-      .product__link:link,
-      .product__link:visited {
+      .recipe__link:link,
+      .recipe__link:visited {
         display: block;
         background-color: #79e17b;
         color: white;
@@ -239,13 +242,13 @@
         transition: all 0.3s;
       }
 
-      .product__link:hover,
-      .product__link:active {
+      .recipe__link:hover,
+      .recipe__link:active {
         background-color: #9be15d;
         transform: scale(1.1) skewX(-20deg);
       }
 
-      .product__link span {
+      .recipe__link span {
         transform: skewX(20deg);
       }
 
@@ -269,16 +272,13 @@
     <div class="container">
       <h1>😺 Louien Keittokirja 😺</h1>
 
-      <figure class="product">
-        <a href="/overview" class="product__back">
+      <figure class="recipe">
+        <a href="/overview" class="recipe__back">
           <span class="emoji-left">👈</span>Takaisin
         </a>
-        <h2 class="product__name">Tiramisu</h2>
-        <div class="product__details">
-            <p class="product__description">{%INGREDIENTS%}</p>
-        </div>
-
-        <p class="product__description">{%INSTRUCTIONS%}</p>
+        <h2 class="recipe__name">{%RECIPENAME%}</h2>
+        <div class="recipe__details">{%RECIPEINGREDIENTS%}</div>
+        <div class="recipe__instructions">{%RECIPEINSTRUCTIONS%}</div>
       </figure>
     </div>
   </body>

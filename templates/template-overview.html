@@ -72,15 +72,8 @@
 
       .recipe-list {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background: rgb(255, 255, 255);
-        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
-        margin-top: 4rem;
-        transform: skewX(-20deg);
-        transition: all 0.5s;
-        border-radius: 2rem;
-        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+        align-items: stretch;
+        flex-direction: column;
       }
 
       .recipe-icon,
@@ -103,6 +96,20 @@
         margin-left: 1rem;
         margin-right: 1rem;
       }
+
+      .fill {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+        margin-top: 4rem;
+        transform: skewX(-20deg);
+        transition: all 0.5s;
+        border-radius: 2rem;
+        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+      }
     </style>
   </head>
   <body>
@@ -116,14 +123,8 @@
       <h1>😺 Louien Keittokirja 😺</h1>
 
       <div class="recipe-list">
-        <div class="recipe-icon">🍰</div>
-        <div class="recipe-name">Tiramisu</div>
-        <div class="recipe-quantity">4 👪</div>
-        <div class="recipe-link"></div>
-        <a class="recipe-link" href="/product?id={%ID%}">
-          <span><i class="emoji-right">👉</i></span>
-        </a>
-      </div>
+        {%RECIPE_CARDS%}
+        </div
     </div>
     <script src="" async defer></script>
   </body>
