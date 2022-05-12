@@ -1,11 +1,13 @@
 const fs = require("fs");
-//const http = require("http");
+http = require("http");
 const url = require("url");
 
 
-var http = require('http');
- http.createServer(function (req, res) {
-    console.log("Server started on port 8080")
-   res.writeHead(200, {'Content-Type': 'text/html'});
-   res.end('Hello World!');
- }).listen(8080);
+
+const server = http.createServer((req, res) => {
+  res.end("Hello from the server");
+});
+
+server.listen(8000, "127.0.0.1", () => {
+  console.log("Listening to requests on port 8000");
+});

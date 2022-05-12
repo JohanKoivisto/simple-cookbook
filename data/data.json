@@ -2,15 +2,23 @@
     {
         "id": 0,
         "recipeName": "Tiramisu",
-        "image": "",
+        "icon": "🍰",
         "quantity": 4,
-        "ingredients": [],
+        "ingredients": [
+            "500ml kuohukermaa",
+            "250g mascarponea",
+            "75ml Marsala-viiniä",
+            "75g hienoa sokeria",
+            "150g savoiardi keksiä",
+            "2 rkl pikakahvia sekoitettuna 250ml kuumaa vettä",
+            "2 rkl kookosjauhetta"
+        ],
         "instructions": []
     },
     {
         "id": 1,
         "recipeName": "TexMex Makaroonilaatikko",
-        "image": "",
+        "icon": "🍝",
         "quantity": 6,
         "ingredients": [],
         "instructions": []

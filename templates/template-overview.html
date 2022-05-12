@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900"
+    />
+    <title>Louien Keittokirja</title>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: "Nunito Sans", sans-serif;
+        color: #555;
+        min-height: 100vh; /*  gradient to whole view */
+        background: linear-gradient(to bottom right, #9be15d, #00e3ae);
+      }
+
+      h1 {
+        font-family: "Megrim", sans-serif;
+        font-size: 6rem;
+        color: white;
+        transform: skewY(2deg);
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        word-spacing: 3px;
+      }
+
+      h1::before {
+        content: "";
+        display: block;
+        height: 65%;
+        width: 49%;
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        opacity: 0.8;
+        z-index: -1;
+        transform: skewY(370deg) translate(-50%, -50%);
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .recipe-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(255, 255, 255);
+        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+        margin-top: 4rem;
+        transform: skewX(-20deg);
+        transition: all 0.5s;
+        border-radius: 2rem;
+        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+      }
+
+      .recipe-icon,
+      .recipe-name,
+      .recipe-quantity {
+        font-size: 3.5rem;
+        line-height: 1.2;
+        padding: 1.5rem 6rem 0.5rem 1.5rem;
+        transform: skewX(
+          20deg
+        ); /* inside .recipe-list content turned straight after previous skew*/
+        border-right: 2px solid rgb(240, 240, 240);
+      }
+
+      .recipe-link {
+        transform: skewX(20deg);
+        text-decoration: none;
+        font-size: 3.5rem;
+        color: #555;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="container">
+      <h1>😺 Louien Keittokirja 😺</h1>
+
+      <div class="recipe-list">
+        <div class="recipe-icon">🍰</div>
+        <div class="recipe-name">Tiramisu</div>
+        <div class="recipe-quantity">4 👪</div>
+        <div class="recipe-link"></div>
+        <a class="recipe-link" href="/product?id={%ID%}">
+          <span><i class="emoji-right">👉</i></span>
+        </a>
+      </div>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
