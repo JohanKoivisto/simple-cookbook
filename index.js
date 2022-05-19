@@ -7,18 +7,17 @@ const url = require("url");
 const replaceTemplate = (temp, recipe) => {
   let output = temp.replace(/{%RECIPENAME%}/g, recipe.recipeName);
   output = output.replace(/{%RECIPEICON%}/g, recipe.icon);
-  output = output.replace(/{%RECIQUANTITY%}/g, recipe.quantity);
-  instructionsHTML = ""
-  ingredientsHTML = ""
+  output = output.replace(/{%RECIPEQUANTITY%}/g, recipe.quantity);
+  output = output.replace(/{%RECIPETIME%}/g, recipe.time);
+  instructionsHTML = "";
+  ingredientsHTML = "";
   recipe.instructions.forEach((el, index) => {
-    instructionsHTML += `<p>${index+1}. ${el}</p>`
+    instructionsHTML += `<p>${index + 1}. ${el}</p>`;
   });
-  recipe.ingredients.forEach(el => {
-    ingredientsHTML += `<p>${el}</p>`
+  recipe.ingredients.forEach((el) => {
+    ingredientsHTML += `<p>${el}</p>`;
   });
 
-
-  console.log(instructionsHTML);
   output = output.replace(/{%RECIPEINSTRUCTIONS%}/g, instructionsHTML);
   output = output.replace(/{%RECIPEINGREDIENTS%}/g, ingredientsHTML);
   output = output.replace(/{%RECIPEID%}/g, recipe.id);
@@ -43,7 +42,7 @@ const recipeData = JSON.parse(data);
 
 // ROUTING
 const server = http.createServer((req, res) => {
-  const {query, pathname} = url.parse(req.url, true);
+  const { query, pathname } = url.parse(req.url, true);
   // OVERVIEW PAGE
   if (pathname === "/" || pathname === "/overview") {
     res.writeHead(200, { "content-type": "text/html" });
@@ -58,8 +57,8 @@ const server = http.createServer((req, res) => {
     // RECIPE PAGE
   } else if (pathname === "/recipe") {
     res.writeHead(200, { "content-type": "text/html" });
-    const recipe = recipeData[query.id]
-    output = replaceTemplate(tempRecipe, recipe)
+    const recipe = recipeData[query.id];
+    output = replaceTemplate(tempRecipe, recipe);
 
     res.end(output);
 

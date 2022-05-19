@@ -3,20 +3,21 @@
     "id": 0,
     "recipeName": "Tiramisu",
     "icon": "🍰",
-    "quantity": "4",
+    "quantity": "12",
+    "time": 20,
     "ingredients": [
       "500ml kuohukermaa",
       "250g mascarponea",
       "75ml Marsala-viiniä",
-      "75g hienoa sokeria",
-      "150g savoiardi keksiä",
-      "2 rkl pikakahvia sekoitettuna 250ml kuumaa vettä",
-      "2 rkl kookosjauhetta"
+      "75g hienosokeria",
+      "150g savoiardi-keksiä",
+      "2 rkl pikakahvia sekoitettuna 250ml kuumaa veteen",
+      "2 rkl kaakaojauhetta"
     ],
     "instructions": [
-      "Combine the cream, mascarpone, Marsala and sugar in a large mixing bowl and whisk until the mixture has the consistency of thickly whipped cream.",
-      "Pour the made up coffee into a shallow dish. Dip the sponge fingers into the coffee, turning for a few seconds so that they are evenly soaked, then layer into the base of a large glass serving bowl.",
-      "Spread the mascarpone mixture on top of the sponge fingers. Sift the cocoa powder on top in an even layer and serve."
+      "Yhdistä kerma, mascarpone, Marsala ja sokeri suuressa kulhossa ja vatkaa, kunnes seos on paksuksi vaahdotettua kermavaahtoa.",
+      "Kaada valmistettu kahvi matalaan astiaan. Upota savoiardi-keksit kahviin, käännä muutama sekunti, jotta ne imeytyvät tasaisesti, ja levitä sitten suuren lasisen tarjoilukulhon pohjalle.",
+      "Levitä mascarpone-seos keksien päälle. Siivilöi päälle kaakaojauhe tasaiseksi kerrokseksi ja tarjoile."
     ]
   },
   {
@@ -24,7 +25,135 @@
     "recipeName": "TexMex Makaroonilaatikko",
     "icon": "🍝",
     "quantity": "6",
-    "ingredients": [],
-    "instructions": []
+    "time": 50,
+    "ingredients": [
+      "7 dl makaroneja",
+      "1 kpl lihaliemikuutio",
+      "2 l vettä",
+      "400 g jauhelihaa",
+      "1 kpl sipuli",
+      "1 rkl öljyä paistamiseen",
+      "1 rkl oreganoa",
+      "1 tl jauhettua jeeraa",
+      "1/4 tl chilijauhetta",
+      "1 tl savustettua paprikajauhetta",
+      "½ tl valkosipulijauhetta",
+      "½ tl jauhettua korianteria",
+      "1/4 tl mustapippuria myllystä",
+      "½ tl suolaa",
+      "250g koskenlaskija ruoka cheddar",
+      "4 dl ruokakermaa",
+      "100 g cheddar juustoraastetta"
+    ],
+    "instructions": [
+      "Kuumenna vesi kiehuvaksi kattilassa ja lisää lihaliemikuutio. Keitä makaroneja puolet pakkauksessa olevasta keittoajasta.",
+      "Valuta makaronit hyvin.",
+      "Kuori ja hienonna sipuli.",
+      "Kuumenna öljy pannulla. Ruskista jauheliha.",
+      "Lisää hienonnettu sipuli ja paista vielä muutaman minuutin ajan. ",
+      "Mausta jauheliha mustapippurilla, jeeralla, oreganolla, korianterilla, savustetulla paprikajauheella, chilillä ja suolalla.",
+      "Sekoita jauheliha ja makaronit hyvin keskenään. Kaada öljyttyyn uunivuokaan.",
+      "Sekoita koskenlaskija ruoka cheddar ja ruokakermat hyvin keskenään. Kaada tasaisesti uunivuokaan.",
+      "Viimeistele tex-mex-makaronilaatikko cheddarjuustoraasteella.",
+      "Paista tex-mex-makaronilaatikkoa uunissa 180 asteessa noin 35 minuuttia.",
+      "Anna Tex-mex-makaronilaatikon jäähtyä hetki ennen tarjoilua."
+    ]
+  },
+  {
+    "id": 2,
+    "recipeName": "Kanakeitto",
+    "icon": "🍲",
+    "quantity": "4",
+    "time": 30,
+    "ingredients": [
+      "1 ½ dl villiriisisekoitusta",
+      "5 dl vettä",
+      "1/2 - 1 tl suolaa",
+      "1 sipuli",
+      "2 - 3 valkosipulin kynttä",
+      "2 rkl rasvaa",
+      "2 kpl (n. 300 g) maustamattomia broilerin rintafileitä",
+      "1 ½ l vettä",
+      "3 kanaliemikuutiota",
+      "3 (200 g) perunaa",
+      "2 - 3 (250 g) porkkanaa",
+      "½ tl timjamia",
+      "1 pussi (200 g) pakastemaissia",
+      "1 prk (2 dl) ruokakermaa",
+      "1 mm (maustemitallinen) mustapippuria",
+      "2 rkl sweet chilikastiketta",
+      "1 ½ rkl vaaleaa suurustejauhetta, esim. Maizena",
+      "persiljaa"
+    ],
+    "instructions": [
+      "Keitä villiriisisekoitus kypsäksi suolalla maustetussa vedessä.",
+      "Hienonna sipuli ja valkosipulit. Kuullota ne Oivariini rasvassa paksupohjaisessa, tilavassa kattilassa.",
+      "Leikkaa broilerin fileet pieniksi paloiksi. Lisää kattilaan ja ruskista kevyesti.",
+      "Lisää vesi ja liemikuutiot. Kuumenna kiehuvaksi.",
+      "Kuutioi perunat ja porkkanat pieniksi (1 x 1 cm) kuutioiksi ja lisää kattilaan. Keitä n. 15 min, kunnes kypsiä.",
+      "Lisää timjami, pippuri, riisit, maissit, sweet chilikastike sekä ruokakerma. Kuumenna keitto kiehuvaksi.",
+      "Suurusta keitto kastikesuurustepakkauksen ohjeiden mukaan.",
+      "Anna makujen tasoittua hetki kannen alla ennen tarjoilua. Ripottele pinnalle persiljaa.",
+      "Tarjoa kanakeitto vaalean leivän tai toastien kera."
+    ]
+  },
+  {
+    "id": 3,
+    "recipeName": "Kermainen kalapata",
+    "icon": "🍲",
+    "quantity": "4",
+    "time": 15,
+    "ingredients": [
+      "250 g lohifileetä",
+      "200 g turskafileetä",
+      "1 pala purjosipulia",
+      "4 keskikokoista perunaa",
+      "3 rkl rypsiöljyä",
+      "2-3 rkl Touch of Taste Hummerifondia",
+      "1 rkl tomaattipyreetä",
+      "8 dl täysmaitoa",
+      "2 dl kermaa (vähintään 4% rasvaa)",
+      "2 dl tuoretta tomaattia, kuutioituna",
+      "suolaa ja pippuria"
+    ],
+    "instructions": [
+      "Kuori perunat ja viipaloi ne noin 2 mm paksuisiksi siivuiksi. Huuhtele ja pilko purjosipuli.",
+      "Pilko lohi- ja turskafileet noin 1*1 cm kuution kokoisiksi paloiksi.",
+      "Kuullota purjoa, perunoita ja tomaattipyreetä muutama minuutti öljyssä. Lisää kattilaan maito, kerma ja Touch of Taste fondi. Keitä miedolla lämmöllä 7-9 min, kunnes perunat ovat pehmenneet.",
+      "Lisää kuutioitu kala ja kiehauta. Siirrä pata sivuun liedeltä. Mausta suolalla, pippurilla ja fondilla.",
+      "Tarjoile pata syvistä kulhoista ja viimeistele tomaattikuutioilla!"
+    ]
+  },
+  {
+    "id": 4,
+    "recipeName": "Butter tofu",
+    "icon": "🍛",
+    "quantity": "4",
+    "time": 60,
+    "ingredients": [
+      "1 pkt (250 g) tofua",
+      "1 rkl rypsiöljyä paistamiseen",
+      "2-3 rkl voita",
+      "1(120 g) sipuli",
+      "3 valkosipulinkynttä",
+      "1 rkl (n. 2 cm:n pala)tuoretta inkivääriä raastettuna",
+      "2 tl garam masala -mausteseosta",
+      "1 tl juustokuminaa eli jeeraa",
+      "1 tl kurkumaa",
+      "1 tl paprikajauhetta",
+      "n. 1 tl chilijauhetta",
+      "1 tlk (500 g) paseerattua tomaattia",
+      "3 rkl tomaattisosetta",
+      "1 tl suolaa",
+      "ripaussokeria",
+      "1 tlk (250 ml) kookoskermaa"
+    ],
+    "instructions": [
+      "Kuivaa tofu talouspaperilla tai puhtaalla keittiöpyyhkeellä. Kuutioi tofu ja paista pannulla öljyssä rapeaksi.",
+      "Hienonna sipuli ja valkosipulinkynnet. Lisää pannulle tai kasariin voi, sipuli ja valkosipuli. Kuullota sipuleita hetki ja lisää joukkoon inkivääri sekä mausteet. Kääntele seosta hetki.",
+      "Lisää kasariin paseerattu tomaatti, tomaattisose, suola ja sokeri. Sekoita tasaiseksi ja kuumenna kiehuvaksi. Lisää kastikkeeseen paistetut tofut ja anna hautua miedolla lämmöllä kannen alla 15-20 minuuttia.",
+      "Lisää lopuksi kastikkeeseen kookoskerma. Kuumenna vielä kiehuvaksi.",
+      "Viimeistele tuoreella korianterilla, cashewpähkinöillä ja chilillä. Tarjoa basmatiriisin ja naanleivän kanssa."
+    ]
   }
 ]
